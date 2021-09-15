@@ -5,4 +5,8 @@ This repo was created with the following steps:
 3. `npm install -D  @smui/button`
 4. Import and use `"@smui/button"` in `src/pages/example/index.svelte`
 
-Then watch the console for errors.
+Then watch the console for errors, specifically:
+
+~~~
+Uncaught SyntaxError: The requested module '/node_modules/@smui/common/internal/index.js?v=819509fe' does not provide an export named 'ActionArray'
+~~~
